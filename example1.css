@@ -1,0 +1,29 @@
+#example1 {
+	position: relative;
+	height: 150px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 0.5s;
+}
+
+#example1:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+#example1 div.example1-absolute {
+	width: 100%;
+	font-size: 1.5em;
+	text-align:center;
+}
+
+#example1 div.example1-absolute img{
+	height: 100px
+}
+
+#example1 div.example1-absolute div.bottom-center{
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	color: black;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

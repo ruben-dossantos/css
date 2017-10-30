@@ -1,0 +1,14 @@
+#example2 {
+	height: 150px;
+	border: 1px dotted black;
+}
+
+#example2 div.outside-square {
+	height: 100%;
+	display: flex;
+}
+
+#example2 div.outside-square div.center-square {
+	border: 1px ridge red;
+	margin: auto;
+}

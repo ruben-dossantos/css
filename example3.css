@@ -1,0 +1,13 @@
+#example3 {
+	height: 150px;
+	border: 1px solid pink;
+
+}
+
+#example3 p.crazy-margin {
+	margin: 10px 30px;
+}
+
+#example3 p.creepy-padding {
+	padding: 5px 10px;
+}

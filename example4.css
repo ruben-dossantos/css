@@ -1,0 +1,17 @@
+#example4 {
+	height: 150px;
+}
+
+#example4 table,td,th {
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+#example4 table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#example4 th,td{
+	padding: 8px;
+}
