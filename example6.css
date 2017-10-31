@@ -1,0 +1,20 @@
+#example6 {
+	height: 150px;
+	border: 2px solid red;
+	font-size: 0.6em;
+	position: relative;
+}
+
+#example6 div.upper-square, #example6 div.lower-square{
+	border: 1px solid blue;
+}
+
+#example6 div.upper-square {
+	word-break: keep-all;
+}
+
+#example6 div.lower-square {
+	position: absolute;
+	bottom: 0;
+	word-break: break-all;
+}

@@ -11,4 +11,5 @@
 #example2 div.outside-square div.center-square {
 	border: 1px ridge red;
 	margin: auto;
+	text-shadow: 2px 2px 5px red;
 }

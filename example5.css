@@ -1,0 +1,23 @@
+#example5 {
+	height: 150px;
+	border-radius: 50px;
+	border: 1px dotted black;
+	display: flex;
+}
+
+#example5 div.a-square {
+	white-space: nowrap; 
+	width: 50%;
+	height: 20%;
+	border: 3px solid blue;
+	margin: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	transition: width 1s, height 2s;
+}
+
+#example5 div.a-square:hover{
+	width: 100%;
+	height: 70%;
+	white-space: normal;
+}

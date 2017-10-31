@@ -1,0 +1,15 @@
+#example9 {
+	height: 150px;
+	border: 1px solid brown;
+}
+
+#example9 div.an-image {
+	width: 100%;
+	text-align: center;
+}
+
+#example9 div.an-image img{
+	border-radius: 50%;
+	height: 149px;
+	filter: invert(100%);
+}

@@ -1,0 +1,22 @@
+#example7 {
+	height: 150px;
+	border: 1px solid black;
+}
+
+#example7 div.the-moving-square{
+	width: 75px;
+	height: 75px;
+	background-color: rgba(0,0,0,0.4);	
+	position: relative;
+	animation-name: move-square;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes move-square{
+	0% { left: 0px; top: 0px; }
+	25% { left: 100px; top: 0px; }
+	50% { left: 100px; top: 74px; }
+	75% { left: 0px; top: 74px; }
+	100% { left: 0px; top: 0px; }
+}
