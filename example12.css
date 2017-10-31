@@ -1,0 +1,19 @@
+#example12 {
+	height: 150px;
+	font-size: 0.7em;
+}
+
+#example12 div.normal-box{
+	width: 100%;
+	height: 70px;
+	border: 1px solid purple;
+	box-sizing: border-box;
+}
+
+#example12 div.border-box{
+	width: 100%;
+	height: 70px;
+	padding: 20px;
+	border: 1px solid green;
+	box-sizing: border-box;	
+}

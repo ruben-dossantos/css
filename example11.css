@@ -1,0 +1,10 @@
+#example11 {
+	height: 150px;
+}
+
+#example11 div.the-columns{
+	font-size: 0.4em;
+	column-count: 3;
+	column-gap: 30%;
+	column-rule: 1px solid lightblue;
+}

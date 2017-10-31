@@ -1,0 +1,14 @@
+#example13 {
+	height: 150px;
+	font-size: 0.8em;
+}
+
+#example13 ol{
+	background: #3399ff;
+	padding: 20px;
+}
+#example13 ol li {
+	background-color: #cce5ff;
+	padding: 5px;
+	margin-left: 35px;
+}
