@@ -1,0 +1,35 @@
+<html>
+<head>
+  <style>
+  #page {
+    counter-reset: heading;
+  }
+
+  h1:before {
+    content: counter(heading)") ";
+    counter-increment: heading;
+  }
+
+  h1 {
+    counter-reset: subheading;
+  }
+
+  h2:before {
+    content: counter(heading)"." counter(subheading)") ";
+    counter-increment: subheading;
+  }
+</style>
+</head>
+<body>
+
+  <div id="page">
+    <h1>Heading Title</h1>
+    <h2>Subheading Title</h2>
+    <h2>Subheading Title</h2>
+    <h1>Heading Title</h1>
+    <h2>Subheading Title</h2>
+    <h1>Heading Title</h1>
+  </div>
+
+</body>
+</html>

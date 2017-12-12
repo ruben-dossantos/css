@@ -16,3 +16,11 @@
 #example13 ol li:nth-last-child(2) {
 	font-weight: bold;
 }
+
+#example13 ol li:nth-child(1){
+	font-style: italic;
+}
+
+#example13 ol li:nth-child(even) {
+	color: red;
+}
