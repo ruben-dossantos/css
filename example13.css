@@ -12,3 +12,7 @@
 	padding: 5px;
 	margin-left: 35px;
 }
+
+#example13 ol li:nth-last-child(2) {
+	font-weight: bold;
+}
